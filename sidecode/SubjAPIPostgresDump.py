@@ -10,7 +10,7 @@ def extract_parenthesis(s: str):
         return s[x + 1:y].strip()
 
 
-cs = 'postgresql://ubu9vdzrkxv50xapdjek:KHNbsxVVQ2XTz0H62oWv@bahxcbs7p3r7rdfuqxrl-postgresql.services.clever-cloud.com:5432/bahxcbs7p3r7rdfuqxrl'
+cs = '[REDACTED]'
 eng = sqlalchemy.create_engine(cs, echo=False)
 md = sqlalchemy.MetaData(eng)
 md.reflect()
